@@ -15,7 +15,7 @@ assembled to vet them.
 
 ### <a href="#client-libraries-javascript" id="client-libraries-javascript" class="headerlink"></a> JavaScript
 
-* [ember-data](https://github.com/emberjs/data) is one of the original exemplar implementations. There is now an [official adapter](https://emberjs.com/api/ember-data/release/classes/DS.JSONAPIAdapter) to support json-api.
+* [ember-data](https://github.com/emberjs/data) is one of the original exemplar implementations. There is now an [official adapter](https://github.com/emberjs/data/blob/main/packages/json-api/README.md) to support json-api.
   ![GitHub last commit](https://img.shields.io/github/last-commit/emberjs/data)
   ![Archived](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2Femberjs%2Fdata&query=%24.archived&label=archived)
 * [backbone-relational-jsonapi](https://github.com/xbill82/backbone-relational-jsonapi) is a parsing layer for Backbone.Relational. Entities specified in JSON:API are automatically parsed to be injected into Backbone.Relational relations.
@@ -222,7 +222,9 @@ assembled to vet them.
 * [jsonapi-converter](https://github.com/jasminb/jsonapi-converter) is a Java JSON:API v1.0 client. Besides providing means for serialisation/deserialisation, client comes with Retrofit plugin.
   ![GitHub last commit](https://img.shields.io/github/last-commit/jasminb/jsonapi-converter)
   ![Archived](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2Fjasminb%2Fjsonapi-converter&query=%24.archived&label=archived)
-* [crnk.io](http://www.crnk.io) is a JSON:API framework for clients and servers. On the client-side it targets both Java and Android development. As for the backend side a rich set of modules helps with the integration of various Java frameworks.
+* [crnk.io](https://github.com/crnk-project/crnk-framework) is a JSON:API framework for clients and servers. On the client-side it targets both Java and Android development. As for the backend side a rich set of modules helps with the integration of various Java frameworks.  
+  ![GitHub last commit](https://img.shields.io/github/last-commit/crnk-project/crnk-framework)
+  ![Archived](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2Fcrnk-project%2Fcrnk-framework&query=%24.archived&label=archived)
  * [jsonapi](https://github.com/MarkoMilos/jsonapi) Library for streamlined use of JSON:API using Kotlin and Java built on top of Moshi from Square. It is built with a powerful api and supports JVM (Java/Kotlin) and Android. Supporting deserialization and serialization it is meant to be used on both client and server side.
    ![GitHub last commit](https://img.shields.io/github/last-commit/MarkoMilos/jsonapi)
    ![Archived](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2FMarkoMilos%2Fjsonapi&query=%24.archived&label=archived)
